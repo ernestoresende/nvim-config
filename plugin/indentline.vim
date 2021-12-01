@@ -1,3 +1,7 @@
+" Set NeoVim automatic identation
+set smartindent
+set shiftwidth=2
+
 " Exclude files
 let g:indentLine_fileTypeExclude = ['json', 'markdown', 'md']
 

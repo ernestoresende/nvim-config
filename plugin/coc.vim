@@ -57,6 +57,7 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)

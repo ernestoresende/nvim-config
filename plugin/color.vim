@@ -1,2 +1,2 @@
-colorscheme hybrid_reverse
-
+colorscheme ghdark
+let g:gh_color = "soft"

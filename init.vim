@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Colorscheme definition
 Plug 'kristijanhusak/vim-hybrid-material'
+Plug 'wojciechkepka/vim-github-dark'
 
 " Filetree
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
