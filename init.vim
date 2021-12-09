@@ -2,9 +2,13 @@ let mapleader = "\<Space>"
 
 call plug#begin('~/.config/nvim/plugged')
 
+" Lightline
+ Plug 'itchyny/lightline.vim'
+
 " Colorscheme definition
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'wojciechkepka/vim-github-dark'
+Plug 'joshdick/onedark.vim'
 
 " Filetree
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }

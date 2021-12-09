@@ -165,11 +165,10 @@ set guicursor=n-v-c:block-Cursor/lCursor,i-ci-ve:ver25-Cursor2/lCursor2,r-cr:hor
 set hidden
 
 " Allows to use gui colors in terminal
-set t_Co=256
-set termguicolors
-
-" Dark background
-set background=dark
+" use 256 colors in terminal
+if !has("gui_running")
+    set t_Co=256
+endif
 
 " Add the g flag to search/replace by default
 set gdefault
