@@ -9,7 +9,7 @@ set backspace=indent,eol,start
 set ruler
 
 " show cursor line
-" set cursorline
+set cursorline
 
 " Don't show extra info at the end of command line
 set showcmd
